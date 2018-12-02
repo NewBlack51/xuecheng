@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @author Black
@@ -11,6 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @description com.xuecheng.manage_cms
  * @date 2018/12/1
  */
+@EnableSwagger2
 @SpringBootApplication
 @EntityScan("com.xuecheng.framework.domain.cms")
 @ComponentScan("com.xuecheng.api.cms")
