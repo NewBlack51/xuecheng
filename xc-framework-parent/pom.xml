@@ -153,6 +153,7 @@
         <finalName>${project.artifactId}</finalName>
         <plugins>
            <!-- &lt;!&ndash; 资源文件拷贝插件 &ndash;&gt;
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
